@@ -4,7 +4,7 @@
 
 The current Microservices approach to the backend of dividing the application into several independently deployed projects fixes the monolith problem, but there is still a bottleneck: the Frontend requires a new release of the whole application with the new changes. Micro Frontends (MFEs) solve that problem, by implementing the same strategy.
 
-This article aims to provide a basic sense of Micro Frontends by answering the basic questions (what, why and how) and providing a simple example that covers other fundamental aspects of Web Development, like routing and state sharing.
+This article aims to provide a basic sense of Micro Frontends by answering the basic questions (what, why and how) and providing a simple example on how to create and properly incorporate them into an application.
 
 ## What Are They ?
 
