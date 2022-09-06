@@ -72,14 +72,7 @@ npx create-mf-app
 
 to create a new MFE project. For the purposes of this example, I'm going to create two projects: host and remote. A few prompts will appear asking for the specs of the project, which for the host are:
 
-```
-Name: host
-Project Type: Application
-Port Number: 3000
-Framework: React
-Language: Typescript
-CSS: Tailwind
-```
+![Host Generation](./prints/npx_create_host.png)
 
 After choosing the specs, the command will conclude and you can navigate to the new directory and run 
 
@@ -101,14 +94,7 @@ as well.
 
 Now, going back to the initial directory, we run the same create-mf-app command to generate the remote project, with the following specs:
 
-```
-Name: remote
-Project Type: Application
-Port Number: 4001
-Framework: React
-Language: Typescript
-CSS: Tailwind
-```
+![Remote Generation](./prints/npx_create_remote.png)
 
 And then navigating to this project and running 
 
@@ -124,8 +110,6 @@ npm start
 
 in each of the project's directories.
 
-**show screenshots of terminal and generated page**
-
 *Note: You can choose whichever port numbers you like, just make sure they aren't the same for the host and the remote*
 
 ### Creating the Remote Page
@@ -139,7 +123,7 @@ import React from "react";
 export default function RemotePage() {
     return(
         <div className="mt-10 text-3xl mx-auto max-w-6xl">
-            This is the Remote Page V2!
+            This is the Remote Page!
         </div>
     )
 }
@@ -163,7 +147,7 @@ ReactDOM.render(<App />, document.getElementById("app"));
 
 After these two steps you should see a page like this:
 
-**show image of the remote page**
+![Remote Page](./prints/remote_page.png)
 
 ### Configuring the Host
 
@@ -525,8 +509,13 @@ const App = () => (
 ReactDOM.render(<App />, document.getElementById("app"));
 ```
 
-Now, if you rerun Host, you'll see a more pleasant "Something Went Wrong" message in the remote tab instead of a hard crash.
+Now, if you rerun Host, you'll see a more pleasant "Something Went Wrong" message in the remote tab instead of a hard crash:
 
+![Remote Page Error](./prints/remote_page_with_error.png)
+
+And now with no error:
+
+![Remote Page No Error](./prints/remote_page_in_host_no_error.png)
 
 ## Sources
 
@@ -543,6 +532,5 @@ Module Federation. (n.d.). Webpack. Retrieved August 23rd, 2022, from https://we
 freeCodeCamp.org. (2021, November 10). *Micro-Frontends Course - Beginner to Expert* [Video]. YouTube. Retrieved August 23, 2022, from https://www.youtube.com/watch?v=lKKsjpH09dU&ab_channel=freeCodeCamp.org
 
 Mecham, O. (n.d). *Workshop: Advanced Application Architecture with MicroFrontends Part 1*. Pluralsight. https://app.pluralsight.com/library/courses/ng-conf-2021-session-38-part-1/table-of-contents
-
 
 
