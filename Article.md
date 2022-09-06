@@ -530,6 +530,18 @@ Now, if you rerun Host, you'll see a more pleasant "Something Went Wrong" messag
 
 ## Sources
 
-https://webpack.js.org/concepts/module-federation/ (visited 23-08-2022)
+JackHerrington. (2022, February 25). *Micro-Frontends: What, why and how* [Video]. YouTube. Retrieved June 6, 2022, from https://www.youtube.com/watch?v=w58aZjACETQ
 
-https://en.wikipedia.org/wiki/Edge_Side_Includes (visited 24-08-2022)
+JackHerrington. (2021, October 14). *Micro-FrontendsIn Just 10 Minutes* [Video]. YouTube. Retrieved June 7, 2022, from https://www.youtube.com/watch?v=s_Fs4AXsTnA
+
+JackHerrington. (2020, March 7). *Introducing Module Federation in Webpack 5* [Video]. YouTube. Retrieved June 14, 2022, from https://www.youtube.com/watch?v=D3XYAx30CNc
+
+Jackson, Z. (2020, March 2). Webpack 5 Module Federation: A game-changer in Javascript architecture. | The Startup. Medium. Retrieved June 14, 2022, from https://medium.com/swlh/webpack-5-module-federation-a-game-changer-to-javascript-architecture-bcdd30e02669
+
+Module Federation. (n.d.). Webpack. Retrieved August 23rd, 2022, from https://webpack.js.org/concepts/module-federation/
+
+freeCodeCamp.org. (2021, November 10). *Micro-Frontends Course - Beginner to Expert* [Video]. YouTube. Retrieved August 23, 2022, from https://www.youtube.com/watch?v=lKKsjpH09dU&ab_channel=freeCodeCamp.org
+
+Mecham, O. (n.d). *Workshop: Advanced Application Architecture with MicroFrontends Part 1*. Pluralsight. https://app.pluralsight.com/library/courses/ng-conf-2021-session-38-part-1/table-of-contents
+
+
